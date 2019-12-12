@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Input.fs" />
+    <Compile Include="Star01.fs" />
+    <Compile Include="Star02.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Intcode\Intcode.fsproj" />
+  </ItemGroup>
+
+</Project>
